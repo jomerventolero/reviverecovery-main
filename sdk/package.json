@@ -1,0 +1,42 @@
+{
+	"name": "@directus/sdk",
+	"version": "17.0.0",
+	"description": "Directus JavaScript SDK",
+	"homepage": "https://directus.io",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/directus/directus.git",
+		"directory": "sdk"
+	},
+	"funding": "https://github.com/directus/directus?sponsor=1",
+	"license": "MIT",
+	"type": "module",
+	"exports": {
+		".": {
+			"import": "./dist/index.js",
+			"require": "./dist/index.cjs"
+		},
+		"./package.json": "./package.json"
+	},
+	"main": "./dist/index.js",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "NODE_ENV=production tsup",
+		"dev": "NODE_ENV=development tsup",
+		"test": "vitest --typecheck --watch=false"
+	},
+	"devDependencies": {
+		"@directus/system-data": "workspace:*",
+		"@directus/tsconfig": "workspace:*",
+		"@types/node-fetch": "2.6.11",
+		"tsup": "8.2.2",
+		"esbuild-plugin-replace": "1.4.0",
+		"typescript": "5.4.5",
+		"vitest": "1.5.3"
+	},
+	"engines": {
+		"node": ">=18.0.0"
+	}
+}
