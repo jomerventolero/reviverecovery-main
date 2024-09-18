@@ -1,7 +1,7 @@
 {
-	"name": "directus",
-	"version": "11.0.2",
-	"description": "Directus is a real-time API and App dashboard for managing SQL database content",
+	"name": "revive-recovery",
+	"version": "1.0.0",
+	"description": "ReviveRecovery is a real-time API and App dashboard for managing SQL database content",
 	"keywords": [
 		"directus",
 		"realtime",
@@ -21,28 +21,11 @@
 		"framework",
 		"vue"
 	],
-	"homepage": "https://directus.io",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/directus/directus.git"
-	},
-	"funding": "https://github.com/directus/directus?sponsor=1",
-	"license": "BUSL-1.1",
-	"author": {
-		"name": "Monospace Inc",
-		"email": "info@monospace.io",
-		"url": "https://monospace.io"
-	},
 	"maintainers": [
 		{
-			"name": "Rijk van Zanten",
-			"email": "rijkvanzanten@me.com",
-			"url": "https://github.com/rijkvanzanten"
-		},
-		{
-			"name": "Ben Haynes",
-			"email": "ben@rngr.org",
-			"url": "https://github.com/benhaynes"
+			"name": "Jomer Augustin Ventolero",
+			"email": "me@jomerventolero.site",
+			"url": "https://github.com/jomerventolero"
 		}
 	],
 	"type": "module",

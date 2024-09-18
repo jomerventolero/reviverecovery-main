@@ -43,33 +43,7 @@ const valueWithDefault = computed(() => {
 </script>
 
 <template>
-	<div class="interface-system-theme">
-		<template v-if="includeNull">
-			<button :class="{ active: value === null }" class="theme" @click="$emit('input', null)">
-				<ThemePreview :dark-mode="appearance === 'dark'" :theme="systemTheme" />
-
-				<div class="label">
-					<v-icon :name="value === null ? 'radio_button_checked' : 'radio_button_unchecked'" />
-					<v-text-overflow :text="t('default_sync_with_project')" />
-				</div>
-			</button>
-		</template>
-
-		<button
-			v-for="theme of items"
-			:key="theme.id"
-			:class="{ active: theme.id === valueWithDefault }"
-			class="theme"
-			@click="$emit('input', theme.id)"
-		>
-			<ThemePreview :dark-mode="appearance === 'dark'" :theme="theme.id" />
-
-			<div class="label">
-				<v-icon :name="theme.id === valueWithDefault ? 'radio_button_checked' : 'radio_button_unchecked'" />
-				<v-text-overflow :text="translate(theme.name)" />
-			</div>
-		</button>
-	</div>
+	
 </template>
 
 <style scoped lang="scss">

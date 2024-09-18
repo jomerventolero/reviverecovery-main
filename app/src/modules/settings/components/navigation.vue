@@ -75,7 +75,6 @@ const links = computed<Link[][]>(() => [
 					</span>
 				</v-list-item-content>
 			</v-list-item>
-
 			<v-divider v-if="index !== links.length - 1" :key="index" />
 		</template>
 	</v-list>
