@@ -47,9 +47,7 @@ const { theme } = useTheme(darkMode, themeLight, themeDark, {}, {});
 </script>
 
 <template>
-	<div class="theme-overrides">
-		<SystemThemeOverridesGroup root :rules="theme.rules" :path="[]" :value="value ?? {}" :set="set" />
-	</div>
+
 </template>
 
 <style scoped lang="scss">

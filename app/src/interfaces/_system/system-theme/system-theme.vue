@@ -37,7 +37,7 @@ const valueWithDefault = computed(() => {
 	if (props.includeNull) {
 		return props.value;
 	}
-
+ 
 	return props.value ?? themeStore.themes[props.appearance][0]?.name ?? null;
 });
 </script>

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Node.js 18 ESM",
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "checkJs": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "module": "Node16",
+    "target": "ES2022",
+    "moduleResolution": "Node16",
+    "verbatimModuleSyntax": true,
+    "lib": [
+      "DOM"
+    ],
+    "emitDeclarationOnly": false,
+    "incremental": true,
+    "tsBuildInfoFile": "C:/Users/USER/Downloads/directus-main/directus-main/node_modules/.pnpm/vitest@1.5.3_@types+node@18.19.45_happy-dom@14.12.3_jsdom@20.0.3_sass@1.77.8_terser@5.31.3/node_modules/vitest/dist/vendor/tsconfig.tmp.tsbuildinfo"
+  },
+  "include": [
+    "src",
+    "tests"
+  ],
+  "typedocOptions": {
+    "entryPoints": [
+      "./src/client.ts",
+      "./src/*/index.ts"
+    ]
+  }
+}

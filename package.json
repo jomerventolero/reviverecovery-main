@@ -1,9 +1,9 @@
 {
 	"name": "directus-monorepo",
 	"private": true,
-	"homepage": "https://directus.io",
+	"homepage": "https://revive-recovery.com",
 	"scripts": {
-		"build": "pnpm --recursive --filter '!docs' run build",
+		"build": "pnpm --recursive run build",
 		"format": "prettier --cache --check .",
 		"lint": "eslint --cache .",
 		"test": "pnpm --recursive --filter '!tests-blackbox' test",
