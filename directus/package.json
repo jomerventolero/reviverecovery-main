@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "ReviveRecovery is a real-time API and App dashboard for managing SQL database content",
 	"keywords": [
-		"directus",
+		"revive-recovery",
 		"realtime",
 		"database",
 		"content",
