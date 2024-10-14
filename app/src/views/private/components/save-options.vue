@@ -21,7 +21,7 @@ const { t } = useI18n();
 		<template #activator="{ toggle }">
 			<v-icon name="more_vert" clickable @click="toggle" />
 		</template>
-
+		<!-- Removed save as a copy, because we don't want to add a new copy of the same item in the collection.  -->
 		<v-list>
 			<v-list-item v-if="!disabledOptions?.includes('save-and-stay')" clickable @click="$emit('save-and-stay')">
 				<v-list-item-icon><v-icon name="check" /></v-list-item-icon>
