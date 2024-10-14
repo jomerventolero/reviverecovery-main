@@ -26,10 +26,10 @@ const brandStyleCss = computed(() => {
 
 useHead({
 	style: [{ textContent: brandStyleCss }],
-	title: 'Directus',
+	title: 'Revive Recovery',
 	titleTemplate: '%s · %projectName',
 	templateParams: {
-		projectName: computed(() => serverStore.info?.project?.project_name ?? 'Directus'),
+		projectName: computed(() => serverStore.info?.project?.project_name ?? 'SHCI CRM'),
 	},
 	meta: computed(() => {
 		const content = serverStore.info?.project?.project_color ?? '#6644ff';
